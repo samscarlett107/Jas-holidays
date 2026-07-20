@@ -1,1 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>JAS Holidays | Luxury Holidays. Expertly Curated.</title>
+
+<meta name="description" content="JAS Holidays creates exceptional luxury holidays, premium hotel stays, and unforgettable cruise experiences for New Zealand travellers.">
+
+<style>
+:root {
+  --navy: #0B1F33;
+  --gold: #C8A96A;
+  --ivory: #F8F5EF;
+  --text: #222;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, serif;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  padding: 30px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  z-index: 2;
+}
+
+.logo {
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-family: Georgia, serif;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.hero {
+  min-height: 100vh;
+  background:
+  linear-gradient(rgba(11,31,51,.55),rgba(11,31,51,.55)),
+  url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e")
+  center/cover;
+
+  display: flex;
+  align-items: center;
+  padding: 0 8%;
+  color: white;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 22px;
+  margin-bottom: 35px;
+}
+
+.button {
+  display: inline-block;
+  background: var(--gold);
+  color: white;
+  padding: 15px 35px;
+  text-decoration: none;
+}
+
+section {
+  padding: 80px 8%;
+}
+
+.intro {
+  background: var(--ivory);
+  text-align: center;
+}
+
+.intro h2,
+.collections h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  padding: 35px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.card h3 {
+  color: var(--navy);
+  margin-bottom: 15px;
+}
+
+.cta {
+  background: var(--navy);
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background: #071522;
+  color:white;
+  text-align:center;
+  padding:30px;
+}
+
+@media(max-width:700px){
+  nav {
+    display:none;
+  }
+
+  .hero h1 {
+    font-size:45px;
+  }
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+JAS Holidays
+</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Hotels</a>
+<a href="#">Cruises</a>
+<a href="#">Destinations</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>
+Luxury Holidays. Expertly Curated.
+</h1>
+
+<p>
+Exceptional hotels, unforgettable cruises,
+and tailor-made journeys around the world.
+</p>
+
+<a class="button" href="mailto:travel@jasholidays.co.nz">
+Plan Your Journey
+</a>
+
+</div>
+
+</section>
+
+
+<section class="intro">
+
+<h2>
+Welcome to JAS Holidays
+</h2>
+
+<p>
+We specialise in premium hotels, luxury cruises,
+and unforgettable international holidays for discerning travellers.
+</p>
+
+</section>
+
+
+<section class="collections">
+
+<h2>
+Explore Our Collections
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Luxury Hotels</h3>
+<p>
+Hand-picked resorts, boutique hotels and world-class accommodation.
+</p>
+</div>
+
+<div class="card">
+<h3>Luxury Cruises</h3>
+<p>
+Exceptional ocean voyages and river cruises with outstanding service.
+</p>
+</div>
+
+<div class="card">
+<h3>Worldwide Destinations</h3>
+<p>
+Discover Europe, Asia, the South Pacific and beyond.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="cta">
+
+<h2>
+Start Planning Your Dream Holiday
+</h2>
+
+<p>
+Email us at travel@jasholidays.co.nz
+</p>
+
+<br>
+
+<a class="button" href="mailto:travel@jasholidays.co.nz">
+Request a Consultation
+</a>
+
+</section>
+
+
+<footer>
+
+© 2026 JAS Holidays  
+<br>
+Luxury Holidays. Expertly Curated.
+
+</footer>
+
+
+</body>
+</html>
