@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Luxury Hotels | JAS Holidays</title>
+
+<meta name="description" content="Explore hand-picked luxury hotels, resorts and boutique stays around the world with JAS Holidays.">
+
+<style>
+:root {
+  --navy:#0B1F33;
+  --gold:#C8A96A;
+  --ivory:#F8F5EF;
+  --text:#222;
+}
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  color:var(--text);
+  line-height:1.6;
+}
+
+h1,h2,h3 {
+  font-family:Georgia, serif;
+}
+
+header {
+  background:var(--navy);
+  padding:25px 8%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  color:white;
+}
+
+.logo {
+  font-family:Georgia, serif;
+  font-size:32px;
+  letter-spacing:2px;
+}
+
+nav a {
+  color:white;
+  text-decoration:none;
+  margin-left:25px;
+}
+
+.hero {
+  min-height:70vh;
+  background:
+  linear-gradient(rgba(11,31,51,.55),rgba(11,31,51,.55)),
+  url("https://images.unsplash.com/photo-1566073771259-6a8506099945")
+  center/cover;
+
+  display:flex;
+  align-items:center;
+  padding:8%;
+  color:white;
+}
+
+.hero h1 {
+  font-size:60px;
+  margin-bottom:20px;
+}
+
+.hero p {
+  font-size:22px;
+  max-width:650px;
+}
+
+section {
+  padding:70px 8%;
+}
+
+.intro {
+  text-align:center;
+  background:var(--ivory);
+}
+
+.intro h2,
+.collection h2 {
+  font-size:42px;
+  margin-bottom:20px;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:30px;
+  margin-top:40px;
+}
+
+.card {
+  padding:35px;
+  box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.card h3 {
+  color:var(--navy);
+  margin-bottom:15px;
+}
+
+.cta {
+  background:var(--navy);
+  color:white;
+  text-align:center;
+}
+
+.button {
+  display:inline-block;
+  background:var(--gold);
+  color:white;
+  padding:15px 35px;
+  text-decoration:none;
+}
+
+footer {
+  background:#071522;
+  color:white;
+  text-align:center;
+  padding:30px;
+}
+
+@media(max-width:700px){
+ nav {
+  display:none;
+ }
+
+ .hero h1 {
+  font-size:42px;
+ }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+JAS Holidays
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="hotels.html">Hotels</a>
+<a href="#">Cruises</a>
+<a href="#">Destinations</a>
+<a href="mailto:travel@jasholidays.co.nz">Contact</a>
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<div>
+
+<h1>
+Luxury Hotels Around The World
+</h1>
+
+<p>
+Hand-picked resorts, boutique hotels and exceptional stays selected for discerning travellers.
+</p>
+
+</div>
+
+</section>
+
+
+<section class="intro">
+
+<h2>
+Exceptional Places To Stay
+</h2>
+
+<p>
+At JAS Holidays, we believe the right accommodation transforms a holiday.
+We carefully select properties offering outstanding service, location and experiences.
+</p>
+
+</section>
+
+
+<section class="collection">
+
+<h2>
+Our Luxury Collections
+</h2>
+
+
+<div class="grid">
+
+
+<div class="card">
+<h3>
+Island Escapes
+</h3>
+
+<p>
+Private villas, beachfront resorts and tropical retreats in destinations such as the Maldives, Fiji and the South Pacific.
+</p>
+</div>
+
+
+<div class="card">
+<h3>
+European Elegance
+</h3>
+
+<p>
+Historic hotels, boutique properties and luxury resorts across Italy, Greece, France and Spain.
+</p>
+</div>
+
+
+<div class="card">
+<h3>
+Asian Retreats
+</h3>
+
+<p>
+Exceptional stays in Japan, Thailand, Bali and Singapore.
+</p>
+</div>
+
+
+<div class="card">
+<h3>
+Unique Luxury Experiences
+</h3>
+
+<p>
+Private lodges, villas and extraordinary properties designed for unforgettable journeys.
+</p>
+</div>
+
+
+</div>
+
+</section>
+
+
+<section class="cta">
+
+<h2>
+Let Us Plan Your Perfect Stay
+</h2>
+
+<p>
+The JAS Holidays Team creates personalised luxury travel experiences from New Zealand to the world.
+</p>
+
+<br>
+
+<a class="button" href="mailto:travel@jasholidays.co.nz">
+Start Your Journey
+</a>
+
+</section>
+
+
+<footer>
+
+© 2026 JAS Holidays  
+<br>
+New Zealand | Luxury Holidays. Expertly Curated.
+
+</footer>
+
+
+</body>
+</html>
